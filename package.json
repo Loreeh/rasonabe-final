@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Loreeh/rasonabefinal.git"
+    "url": "git+https://github.com/Loreeh/rasonabe-finals.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Loreeh/rasonabefinal/issues"
+    "url": "https://github.com/Loreeh/rasonabe-finals/issues"
   },
-  "homepage": "https://github.com/Loreeh/rasonabefinal#readme"
+  "homepage": "https://github.com/Loreeh/rasonabe-finals#readme"
 }
