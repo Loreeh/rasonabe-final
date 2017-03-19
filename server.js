@@ -9,15 +9,15 @@ app.set('port', (process.env.PORT || 5000));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res){
-  res.sendFile(path.join(__dirname, 'movies/index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
-app.get('/1999', function(req, res){
+app.get('/Part1', function(req, res){
   res.sendFile(path.join(__dirname, 'movies/Part1.html'));
 });
-app.get('/2004', function(req, res){
+app.get('/Part2', function(req, res){
   res.sendFile(path.join(__dirname, 'movies/Part2.html'));
 });
-app.get('/2007', function(req, res){
+app.get('/Part3', function(req, res){
   res.sendFile(path.join(__dirname, 'movies/Part3.html'));
 });
 app.get('*', function(req, res){

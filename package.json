@@ -2,23 +2,24 @@
   "name": "rasonabe-finalexam",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.15.2"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Loreeh/rasonabe-finalexam.git"
+    "url": "git+https://github.com/Loreeh/rasonabefinal.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Loreeh/rasonabe-finalexam/issues"
+    "url": "https://github.com/Loreeh/rasonabefinal/issues"
   },
-  "homepage": "https://github.com/Loreeh/rasonabe-finalexam#readme"
+  "homepage": "https://github.com/Loreeh/rasonabefinal#readme"
 }
